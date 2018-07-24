@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+    script(type="text/javascript" src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js")
+    script(type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js")
+    script(type="text/javascript" src="/js/angularApp.js")
+  body(
+    ng-app="mainApp"
+    ng-controller="mainCtrl"
+  )
+    block content
